@@ -4,7 +4,7 @@ import java.util.concurrent.Semaphore;
 
 public class ProcessorThread extends Thread{
 	
-	private int idThread;
+    private int idThread;
     private Semaphore semaphore;
  
     public ProcessorThread(int id, Semaphore semaphore) {
